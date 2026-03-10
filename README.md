@@ -1,59 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 110" width="420" height="110">
-
-  <!-- ═══════════════════════════════════════════
-       ICON MARK — Stylized "L" from 3 blocks
-       Negative gaps = database rows
-       Top block crowned with upward arrow = AI progress
-  ════════════════════════════════════════════ -->
-
-  <!-- Upward arrow (cyan) — sits above top block, symbolises training progression -->
-  <polygon points="26,6 50,34 2,34" fill="#00E5FF"/>
-
-  <!-- Top block — left-aligned (vertical stroke of L) -->
-  <rect x="2" y="38" width="48" height="19" rx="3" fill="#336791"/>
-
-  <!-- Row gap — negative space = database row separator -->
-
-  <!-- Middle block — left-aligned (vertical stroke of L) -->
-  <rect x="2" y="63" width="48" height="19" rx="3" fill="#336791"/>
-
-  <!-- Row gap -->
-
-  <!-- Bottom block — wide (horizontal stroke of L, forms the base) -->
-  <rect x="2" y="88" width="88" height="19" rx="3" fill="#336791"/>
-
-  <!-- Subtle cyan accent bar on right edge of bottom block — ties icon to arrow -->
-  <rect x="82" y="88" width="8" height="19" rx="3" fill="#00E5FF"/>
-
-  <!-- ═══════════════════════════════════════════
-       WORDMARK — LEDGER
-       Geometric bold caps, tight tracking
-  ════════════════════════════════════════════ -->
-  <text
-    x="112"
-    y="90"
-    font-family="'Trebuchet MS', 'Gill Sans MT', 'Century Gothic', sans-serif"
-    font-size="72"
-    font-weight="bold"
-    letter-spacing="3"
-    fill="#0F1B2D"
-  >LEDGER</text>
-
-  <!-- Cyan underline accent beneath wordmark — grounds the type -->
-  <rect x="112" y="98" width="295" height="5" rx="2.5" fill="#00E5FF" opacity="0.7"/>
-
-</svg>
-
-
-
 <div align="center">
 <br/>
 
-<img src="logo.svg" alt="Ledger" width="380"/>
+<img src="logo.svg" alt="Ledger" width="80"/>
 
-<br/><br/>
+<h1>LEDGER</h1>
 
-*Persistent memory infrastructure for AI experimentation.*
+<p><em>Persistent memory infrastructure for AI experimentation.</em></p>
 
 <br/>
 
@@ -187,8 +139,7 @@ WHERE d.datasetname = :target_dataset;
 ## Setup
 
 ```bash
-git clone https://github.com/yourusername/ledger
-cd ledger
+git clone https://github.com/yourusername/ledger && cd ledger
 ```
 
 ```bash
@@ -230,5 +181,5 @@ ledger/
 
 ## Author
 
-**Kumaran Chandrashekar**
+**Kumaran Chandrashekar**  
 B.Tech Computer Science (Data Science), VIT Chennai
