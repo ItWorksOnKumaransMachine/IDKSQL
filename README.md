@@ -1,6 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 110" width="420" height="110">
+
+  <!-- ═══════════════════════════════════════════
+       ICON MARK — Stylized "L" from 3 blocks
+       Negative gaps = database rows
+       Top block crowned with upward arrow = AI progress
+  ════════════════════════════════════════════ -->
+
+  <!-- Upward arrow (cyan) — sits above top block, symbolises training progression -->
+  <polygon points="26,6 50,34 2,34" fill="#00E5FF"/>
+
+  <!-- Top block — left-aligned (vertical stroke of L) -->
+  <rect x="2" y="38" width="48" height="19" rx="3" fill="#336791"/>
+
+  <!-- Row gap — negative space = database row separator -->
+
+  <!-- Middle block — left-aligned (vertical stroke of L) -->
+  <rect x="2" y="63" width="48" height="19" rx="3" fill="#336791"/>
+
+  <!-- Row gap -->
+
+  <!-- Bottom block — wide (horizontal stroke of L, forms the base) -->
+  <rect x="2" y="88" width="88" height="19" rx="3" fill="#336791"/>
+
+  <!-- Subtle cyan accent bar on right edge of bottom block — ties icon to arrow -->
+  <rect x="82" y="88" width="8" height="19" rx="3" fill="#00E5FF"/>
+
+  <!-- ═══════════════════════════════════════════
+       WORDMARK — LEDGER
+       Geometric bold caps, tight tracking
+  ════════════════════════════════════════════ -->
+  <text
+    x="112"
+    y="90"
+    font-family="'Trebuchet MS', 'Gill Sans MT', 'Century Gothic', sans-serif"
+    font-size="72"
+    font-weight="bold"
+    letter-spacing="3"
+    fill="#0F1B2D"
+  >LEDGER</text>
+
+  <!-- Cyan underline accent beneath wordmark — grounds the type -->
+  <rect x="112" y="98" width="295" height="5" rx="2.5" fill="#00E5FF" opacity="0.7"/>
+
+</svg>
+
+
+
 <div align="center">
 <br/>
-<img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0MjAgMTEwIiB3aWR0aD0iNDIwIiBoZWlnaHQ9IjExMCI+CgogIDwhLS0g4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQCiAgICAgICBJQ09OIE1BUksg4oCUIFN0eWxpemVkICJMIiBmcm9tIDMgYmxvY2tzCiAgICAgICBOZWdhdGl2ZSBnYXBzID0gZGF0YWJhc2Ugcm93cwogICAgICAgVG9wIGJsb2NrIGNyb3duZWQgd2l0aCB1cHdhcmQgYXJyb3cgPSBBSSBwcm9ncmVzcwogIOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkCAtLT4KCiAgPCEtLSBVcHdhcmQgYXJyb3cgKGN5YW4pIOKAlCBzaXRzIGFib3ZlIHRvcCBibG9jaywgc3ltYm9saXNlcyB0cmFpbmluZyBwcm9ncmVzc2lvbiAtLT4KICA8cG9seWdvbiBwb2ludHM9IjI2LDYgNTAsMzQgMiwzNCIgZmlsbD0iIzAwRTVGRiIvPgoKICA8IS0tIFRvcCBibG9jayDigJQgbGVmdC1hbGlnbmVkICh2ZXJ0aWNhbCBzdHJva2Ugb2YgTCkgLS0+CiAgPHJlY3QgeD0iMiIgeT0iMzgiIHdpZHRoPSI0OCIgaGVpZ2h0PSIxOSIgcng9IjMiIGZpbGw9IiMzMzY3OTEiLz4KCiAgPCEtLSBSb3cgZ2FwIOKAlCBuZWdhdGl2ZSBzcGFjZSA9IGRhdGFiYXNlIHJvdyBzZXBhcmF0b3IgLS0+CgogIDwhLS0gTWlkZGxlIGJsb2NrIOKAlCBsZWZ0LWFsaWduZWQgKHZlcnRpY2FsIHN0cm9rZSBvZiBMKSAtLT4KICA8cmVjdCB4PSIyIiB5PSI2MyIgd2lkdGg9IjQ4IiBoZWlnaHQ9IjE5IiByeD0iMyIgZmlsbD0iIzMzNjc5MSIvPgoKICA8IS0tIFJvdyBnYXAgLS0+CgogIDwhLS0gQm90dG9tIGJsb2NrIOKAlCB3aWRlIChob3Jpem9udGFsIHN0cm9rZSBvZiBMLCBmb3JtcyB0aGUgYmFzZSkgLS0+CiAgPHJlY3QgeD0iMiIgeT0iODgiIHdpZHRoPSI4OCIgaGVpZ2h0PSIxOSIgcng9IjMiIGZpbGw9IiMzMzY3OTEiLz4KCiAgPCEtLSBTdWJ0bGUgY3lhbiBhY2NlbnQgYmFyIG9uIHJpZ2h0IGVkZ2Ugb2YgYm90dG9tIGJsb2NrIOKAlCB0aWVzIGljb24gdG8gYXJyb3cgLS0+CiAgPHJlY3QgeD0iODIiIHk9Ijg4IiB3aWR0aD0iOCIgaGVpZ2h0PSIxOSIgcng9IjMiIGZpbGw9IiMwMEU1RkYiLz4KCiAgPCEtLSDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZAKICAgICAgIFdPUkRNQVJLIOKAlCBMRURHRVIKICAgICAgIEdlb21ldHJpYyBib2xkIGNhcHMsIHRpZ2h0IHRyYWNraW5nCiAg4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQIC0tPgogIDx0ZXh0CiAgICB4PSIxMTIiCiAgICB5PSI5MCIKICAgIGZvbnQtZmFtaWx5PSInVHJlYnVjaGV0IE1TJywgJ0dpbGwgU2FucyBNVCcsICdDZW50dXJ5IEdvdGhpYycsIHNhbnMtc2VyaWYiCiAgICBmb250LXNpemU9IjcyIgogICAgZm9udC13ZWlnaHQ9ImJvbGQiCiAgICBsZXR0ZXItc3BhY2luZz0iMyIKICAgIGZpbGw9IiMwRjFCMkQiCiAgPkxFREdFUjwvdGV4dD4KCiAgPCEtLSBDeWFuIHVuZGVybGluZSBhY2NlbnQgYmVuZWF0aCB3b3JkbWFyayDigJQgZ3JvdW5kcyB0aGUgdHlwZSAtLT4KICA8cmVjdCB4PSIxMTIiIHk9Ijk4IiB3aWR0aD0iMjk1IiBoZWlnaHQ9IjUiIHJ4PSIyLjUiIGZpbGw9IiMwMEU1RkYiIG9wYWNpdHk9IjAuNyIvPgoKPC9zdmc+Cg==" alt="Ledger" width="380"/>
+
+<img src="logo.svg" alt="Ledger" width="380"/>
+
 <br/><br/>
 
 *Persistent memory infrastructure for AI experimentation.*
@@ -171,6 +221,7 @@ ledger/
 │       ├── pages/
 │       ├── components/
 │       └── api/
+├── logo.svg
 ├── schema.sql
 └── README.md
 ```
