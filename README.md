@@ -8,13 +8,6 @@
 
 **IDKSQL** is a full-stack system that allows users to interact with a PostgreSQL database using plain English.
 
-Instead of writing SQL queries, users can simply type:
-
-> “Show all training runs where loss > 1”
-> “Add employee John age 28 salary 45000”
-
-…and the system will:
-
 1. Convert it into SQL
 2. Execute it on the database
 3. Return results
